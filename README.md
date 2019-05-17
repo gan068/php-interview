@@ -1,9 +1,17 @@
 # PHP 工程師面試
-* 作答時間：30分鐘
-* 請完成 PHP 與 資料庫 的題目
-* 基礎與資訊安全未作答完成的可在面試時進行回答
+* 作答時間：20分鐘
+* 面試分為實作與面談
+	* 實作
+		* PHP
+		* 資料庫
+	* 面談
+		* 程式開發
+		* 資訊安全
 
-## PHP
+## 實作
+需以紙筆進行作答
+
+### PHP
 1. 請寫出以下程式執行結果
 ```php
 <?php
@@ -87,12 +95,11 @@ class CoinChanger
 
     public function change(int $input, int $price)
     {
-        $result = [
+        return [
             1 => 0,
             5 => 0,
             10 => 0,
         ];
-        return $result;
     }
 }
 
@@ -111,7 +118,7 @@ class PriceBiggerThanInputException extends Exception
 
 ```
 
-## 資料庫
+### 資料庫
 1. 請寫出 T-SQL 查詢
 目的：不同年級中，分數最高的前三名學生
 
@@ -129,14 +136,16 @@ class PriceBiggerThanInputException extends Exception
 
 
 
+## 面談
+為了縮短面談的時間，請先思考下列問題
 
-## 基礎
+### 程式開發
 1. 請解釋軟體開發的 S.O.L.I.D 原則
-2. 說出或畫出你之前專案的伺服器架構
+2. 請描述你之前工作中接觸到最具代表性的系統架構
 3. 使用過哪些快取技術，分別的使用情境是什麼？
 4. 使用過佇列嗎？ 使用的情境是什麼？
 5. 請解釋 Session 與 Cookie 的區別
 
-## 資訊安全
+### 資訊安全
 1. 請說明你使用哪些方法防 SQL Injection
 2. 請說明你使用哪些方法防止 XSS攻擊
