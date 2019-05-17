@@ -27,6 +27,22 @@ if (!empty($y)) {
 echo "World";
 ```
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 2. 請撰寫符合測試程式的販賣機找零類別
 
 ```php
@@ -73,6 +89,12 @@ class CoinChangerTest extends TestCase
 
 ```
 
+
+
+
+
+
+
 ```php
 <?php
 namespace App;
@@ -118,7 +140,16 @@ class PriceBiggerThanInputException extends Exception
 
 ```
 
+
+
+
+
+
+
+
+
 ### 資料庫
+
 1. 請寫出 T-SQL 查詢
 目的：不同年級中，分數最高的前三名學生
 
