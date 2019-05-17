@@ -1,0 +1,17 @@
+/vendor
+.phpunit.result.cache
+
+#ctags
+.tags
+
+#project
+nbproject/private
+
+#osx
+.DS_Store
+
+#windows
+Thumbs.db
+
+#phpstorm
+.phpstorm.meta.php
