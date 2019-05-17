@@ -26,7 +26,7 @@ echo "World";
 
 namespace Tests\Unit;
 
-use Tests\TestCase;
+use PHPUnit\Framework\TestCase;
 use App\CoinChanger;
 use App\Exceptions\PriceBiggerThanInputException;
 
@@ -94,6 +94,19 @@ class CoinChanger
         ];
         return $result;
     }
+}
+
+```
+```php
+<?php
+
+namespace App\Exceptions;
+
+use Exception;
+
+class PriceBiggerThanInputException extends Exception
+{
+
 }
 
 ```
